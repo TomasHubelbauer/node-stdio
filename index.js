@@ -31,7 +31,7 @@ void async function () {
     for (const line of chunk.split('\n')) {
       switch (line) {
         case 'What is your favorite color? ': {
-          deferred.resolve('blue\n');
+          deferred.resolve('blue');
           deferred = defer();
           break;
         }
